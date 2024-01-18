@@ -1,0 +1,66 @@
+.movie {
+  height: 40rem;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column-reverse;
+  position: relative;
+  overflow: hidden;
+  border-radius: 0.8rem;
+  cursor: pointer;
+}
+
+.movie__title {
+  padding: 0.8rem;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 1.6rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.movie__poster {
+  height: 100%;
+  object-fit: cover;
+}
+
+.movie__bookmark-button {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 10%;
+  height: 10%;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 2.4rem;
+  font-weight: 600;
+}
+
+.movie__bookmark-button:hover {
+  background-color: rgba(0, 0, 0, 0.4);
+  color: rgba(255, 255, 255, 1);
+}
+
+/* .movie__info-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 3.2rem;
+  height: 3.2rem;
+  aspect-ratio: 1 / 1;
+  border: none;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 2.4rem;
+  line-height: 2;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.movie__info-button:hover {
+  background-color: rgba(0, 0, 0, 0.4);
+  color: rgba(255, 255, 255, 1);
+} */
